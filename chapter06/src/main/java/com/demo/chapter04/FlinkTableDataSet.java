@@ -6,7 +6,7 @@ import org.apache.flink.api.java.table.BatchTableEnvironment;
 import org.apache.flink.api.table.Table;
 import org.apache.flink.api.table.TableEnvironment;
 
-public class FlinkTable {
+public class FlinkTableDataSet {
 
 	public static void main(String[] args) throws Exception {
 
