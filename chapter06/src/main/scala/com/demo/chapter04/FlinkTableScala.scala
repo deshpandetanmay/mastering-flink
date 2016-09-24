@@ -1,4 +1,4 @@
-package com.demo.chapter06
+package com.demo.chapter04
 
 import org.apache.flink.api.scala._
 import org.apache.flink.api.scala.table._
