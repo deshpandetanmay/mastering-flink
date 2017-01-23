@@ -1,6 +1,8 @@
-# Mastering Apache Flink
+# [Mastering Apache Flink](https://www.packtpub.com/big-data-and-business-intelligence/mastering-apache-flink)
 Definitive guide to lightning fast data processing for distributed systems with Apache Flink
-This ia Code Repository for book - Mastering Flink
+This is Code Repository for the snippets provided in the book - Mastering Flink
+
+![alt tag](https://github.com/deshpandetanmay/mastering-flink/images/flink.JPG)
 
 ## What You Will Learn
 
