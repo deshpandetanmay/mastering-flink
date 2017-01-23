@@ -9,8 +9,8 @@ import org.apache.flink.ml.RichExecutionEnvironment
 object MySVMApp {
   def main(args: Array[String]) {
     // set up the execution environment
-    val pathToTrainingFile: String = "D:\\work\\Mastering Flink\\Chapter 6\\ml\\iris-train.txt"
-    val pathToTestingFile: String = "D:\\work\\Mastering Flink\\Chapter 6\\ml\\iris-train.txt"
+    val pathToTrainingFile: String = "iris-train.txt"
+    val pathToTestingFile: String = "iris-train.txt"
     val env = ExecutionEnvironment.getExecutionEnvironment
 
     // Read the training data set, from a LibSVM formatted file
@@ -28,7 +28,7 @@ object MySVMApp {
 
     // Calculate the predictions for the testing data set
     val predictionDS: DataSet[(Vector, Double)] = svm.predict(testingDS)
-    predictionDS.writeAsText("D:\\work\\Mastering Flink\\Chapter 6\\ml\\out")
+    predictionDS.writeAsText("out")
 
     env.execute("Flink Scala API Skeleton")
   }

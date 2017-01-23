@@ -26,7 +26,7 @@ object MyMRLApp {
 
     // Calculate the predictions for the test data
 //    val predictions = mlr.predict(testingDS)
-    predictions.writeAsText("D:\\work\\Mastering Flink\\Chapter 6\\ml\\mlr-out")
+    predictions.writeAsText("mlr-out")
 
     env.execute("Flink MLR App")
   }
