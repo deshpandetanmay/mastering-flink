@@ -2,7 +2,7 @@
 Definitive guide to lightning fast data processing for distributed systems with Apache Flink
 This is Code Repository for the snippets provided in the book - Mastering Flink
 
-![alt tag](https://github.com/deshpandetanmay/mastering-flink/images/flink.JPG)
+![alt tag](https://github.com/deshpandetanmay/mastering-flink/tree/master/images/flink.JPG)
 
 ## What You Will Learn
 
