@@ -13,7 +13,7 @@ object Job {
     // set up the execution environment
     val env = ExecutionEnvironment.getExecutionEnvironment
 
-    val iriscsv = env.readCsvFile[(String, String, String, String, String)]("D://work//Mastering Flink//Chapter 6//ml//iris.csv")
+    val iriscsv = env.readCsvFile[(String, String, String, String, String)]("iris.csv")
     val irisLV = iriscsv
       .map { tuple =>
         val list = tuple.productIterator.toList
