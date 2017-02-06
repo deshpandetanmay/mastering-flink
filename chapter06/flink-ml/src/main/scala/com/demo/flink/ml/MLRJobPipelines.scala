@@ -33,8 +33,8 @@ object MLRJobPipelines {
       .setMin(1.0)
       .setMax(3.0)
 
-    val trainingDataset = MLUtils.readLibSVM(env, "D://work//Mastering Flink//Chapter 6//ml//iris-train.txt")
-    val testingDataset = MLUtils.readLibSVM(env, "D://work//Mastering Flink//Chapter 6//ml//iris-test.txt").map { lv => lv.vector }
+    val trainingDataset = MLUtils.readLibSVM(env, "iris-train.txt")
+    val testingDataset = MLUtils.readLibSVM(env, "iris-test.txt").map { lv => lv.vector }
     val mlr = MultipleLinearRegression()
       .setStepsize(1.0)
       .setIterations(5)
